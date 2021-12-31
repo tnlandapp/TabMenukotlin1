@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fracgment.fragment1"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="47dp">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/landarry"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="163dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="59dp"
+        android:gravity="center"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:shadowColor="#FA1919"
+        android:text="select  mesurement"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3AC807"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/spinner1"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterdata1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="examble= 0.208"
+        android:inputType="number|numberDecimal"
+        android:letterSpacing="0"
+        android:maxLength="6"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@android:style/Widget.TextView.SpinnerItem"
+        android:layout_width="163dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="59dp"
+        android:gravity="center"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:shadowColor="#FA1919"
+        android:text="Enter vealue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#3AC807"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/spinner1"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="331dp"
+        android:gravity="center"
+        android:text="Hecter"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:text="குழி"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/koziview4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="284dp"
+        android:gravity="center"
+        android:text="sqire meter"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/sqiwrview5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="331dp"
+        android:gravity="center"
+        android:text="Acear"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="196dp"
+        android:gravity="center"
+        android:text="Cent"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/centview3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/covertbt1"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="186dp"
+        android:text="Convert Now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterdata1" />
+
+    <TextView
+        android:id="@+id/hecterview1"
+        android:layout_width="115dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="41dp"
+        android:maxLength="5"
+        android:textAlignment="center"
+        android:textColor="#B721D1"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/covertbt1" />
+
+    <TextView
+        android:id="@+id/acerview2"
+        android:layout_width="111dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="16dp"
+        android:maxLength="9"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/centview3"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/hecterview1" />
+
+    <TextView
+        android:id="@+id/centview3"
+        android:layout_width="115dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="41dp"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/covertbt1" />
+
+    <TextView
+        android:id="@+id/koziview4"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="41dp"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/covertbt1" />
+
+    <TextView
+        android:id="@+id/sqiwrview5"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="41dp"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/covertbt1" />
+
+    <TextView
+        android:id="@+id/errormasge"
+        android:layout_width="216dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:text="@string/pelese_select_correct_valuse"
+        android:textColor="#EF0101"
+        android:textStyle="normal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/spinner1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TabMenukotlin</string>
+    <string name="op">open</string>
+    <string name="co">Tclose</string>
+    <string name="pelese_select_correct_valuse">pelese select correct valuse</string>
+    <string-array name="landarry">
+      <item>Your Measurement</item>
+      <item>hector</item>
+      <item>acer</item>
+      <item>cent</item>
+      <item>airs</item>
+      <item>kouzi</item>
+      <item>sqiremeter</item>
+
+  </string-array>
+
+</resources>
