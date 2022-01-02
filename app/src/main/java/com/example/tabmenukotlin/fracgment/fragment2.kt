@@ -50,7 +50,7 @@ class fragment2 : Fragment() {
             }
         }
 
-        myWebView.loadUrl("https://eservices.tn.gov.in/eservicesnew/land/chittaNewRuralTamil.html?lan=ta")
+        myWebView.loadUrl("https://eservices.tn.gov.in/eservicesnew/land/chittaCheckNewRural_en.html?lan=en")
         myWebView.settings.javaScriptEnabled = true
         myWebView.settings.allowContentAccess = true
         myWebView.settings.domStorageEnabled = true
